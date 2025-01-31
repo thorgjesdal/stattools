@@ -84,10 +84,13 @@ cat_events = {'outdoor' :
           #'JU18' : ['60', '200', '400','800', '1500', '3000', '60H', 'HJ', 'PV', 'LJ', 'TJ', 'SP']
           'JU18' : ['60', '200', '400','800', '1500', '60H', 'HJ', 'PV', 'LJ', 'TJ', 'SP']
         }  }
-year = '2021'
-seasons =  ['outdoor', 'indoor']
-cat_maxdepth = {'MS' : 100, 'MU23' : 50, 'MU20' : 35, 'GU18' : 25,
-                'KS' : 100, 'KU23' : 50, 'KU20' : 35, 'JU18' : 25}
+year = '2022'
+seasons =  ['outdoor']
+#seasons =  ['outdoor', 'indoor']
+#cat_maxdepth = {'MS' : 100, 'MU23' : 50, 'MU20' : 35, 'GU18' : 25,
+#                'KS' : 100, 'KU23' : 50, 'KU20' : 35, 'JU18' : 25}
+cat_maxdepth = {'MS' : 10, 'MU23' : 10, 'MU20' : 10, 'GU18' : 10,
+                'KS' : 10, 'KU23' : 10, 'KU20' : 10, 'JU18' : 10}
 
 for season in seasons:
     for cat in cats:
